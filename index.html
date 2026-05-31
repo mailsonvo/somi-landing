@@ -1015,7 +1015,7 @@ footer {
   <div class="container">
     <div class="section-header">
       <span class="section-label">Planos</span>
-      <h2>14 dias grátis.<br>Depois, só R$&nbsp;18,90.</h2>
+      <h2>14 dias grátis.<br>Depois, só R$&nbsp;14,90.</h2>
       <p>Sem cartão de crédito para começar. Cancele quando quiser.</p>
     </div>
 
@@ -1036,7 +1036,7 @@ footer {
         <div class="plan-name">Premium</div>
 
         <div class="plan-price-block">
-          <span class="plan-price-currency">R$</span><span class="plan-price" id="planPrice">18,90</span>
+          <span class="plan-price-currency">R$</span><span class="plan-price" id="planPrice">14,90</span>
         </div>
         <div class="plan-period" id="planPeriod">por mês</div>
         <div class="plan-annual-note" id="planAnnualNote"></div>
@@ -1150,9 +1150,9 @@ function setPricing(ciclo) {
   var isAnual = ciclo === 'anual';
   document.getElementById('btnMensal').classList.toggle('active', !isAnual);
   document.getElementById('btnAnual').classList.toggle('active', isAnual);
-  document.getElementById('planPrice').textContent = isAnual ? '13,24' : '18,90';
+  document.getElementById('planPrice').textContent = isAnual ? '10,43' : '14,90';
   document.getElementById('planPeriod').textContent = isAnual ? 'por mês, cobrado anualmente' : 'por mês';
-  document.getElementById('planAnnualNote').textContent = isAnual ? 'R$ 158,90/ano — economia de R$ 67,90' : '';
+  document.getElementById('planAnnualNote').textContent = isAnual ? 'R$ 125,16/ano — economia de R$ 53,64' : '';
 }
 </script>
 
