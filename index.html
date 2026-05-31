@@ -1150,9 +1150,9 @@ function setPricing(ciclo) {
   var isAnual = ciclo === 'anual';
   document.getElementById('btnMensal').classList.toggle('active', !isAnual);
   document.getElementById('btnAnual').classList.toggle('active', isAnual);
-  document.getElementById('planPrice').textContent = isAnual ? '10,43' : '14,90';
+  document.getElementById('planPrice').textContent = isAnual ? '10,83' : '14,90';
   document.getElementById('planPeriod').textContent = isAnual ? 'por mês, cobrado anualmente' : 'por mês';
-  document.getElementById('planAnnualNote').textContent = isAnual ? 'R$ 125,16/ano — economia de R$ 53,64' : '';
+  document.getElementById('planAnnualNote').textContent = isAnual ? 'R$ 129,90/ano — economia de R$ 48,90' : '';
 }
 </script>
 
